@@ -1,0 +1,26 @@
+{
+    "name": "gmj/laravel_livewire2_video",
+    "description": "Laravel Livewire2 for backend and frontend - need tailwindcss support",
+    "type": "library",
+    "license": "MIT",
+     "authors": [
+        {
+            "name": "Joe Lau",
+            "email": "joe.laucw71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GMJ\\LaravelLivewire2Video\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GMJ\\LaravelLivewire2Video\\LaravelLivewire2VideoServiceProvider"
+            ]
+        }
+    }
+}
