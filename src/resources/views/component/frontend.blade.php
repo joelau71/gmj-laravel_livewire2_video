@@ -21,7 +21,7 @@
             width:100%;
             height:100%;
         }
-        .laravel-livewire2-video .pointer-events-none{
+        .laravel_livewire2_video .pointer-events-none{
             pointer-events: visible;
         }
     </style>
